@@ -1,0 +1,34 @@
+{
+    "name": "ringcentral/botman-glip",
+    "type": "library-adaptor",
+    "description": "Botman Glip Adaptor",
+    "keywords": [
+        "php",
+        "sdk",
+        "ringcentral",
+        "botman",
+        "connect",
+        "platform",
+        "api"
+    ],
+    "homepage": "http://developers.ringcentral.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anil Kumar",
+            "email": "anil.kumar@ringcentral.com"
+        },
+        {
+            "name": "RingCentral, Inc.",
+            "email": "devsupport@ringcentral.com"
+        }
+    ],
+    "require": {
+        "mpociot/botman": "^1.4",
+        "react/react": "^0.4.2",
+        "mpociot/phpws": "~1.1",
+        "mpociot/slack-client": "^0.2.6",
+        "ringcentral/ringcentral-php": "~2.0.0"
+    }
+}
+
